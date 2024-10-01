@@ -27,7 +27,7 @@ namespace Tyuiu.SanzyapovOD.Sprint1.Task2.V29
 
             int x;
 
-            Console.WriteLine("Введите X колчиство секунд: ");
+            Console.WriteLine("Введите X количество секунд: ");
             x = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
