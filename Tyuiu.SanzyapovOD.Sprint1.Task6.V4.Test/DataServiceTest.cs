@@ -8,9 +8,9 @@ namespace Tyuiu.SanzyapovOD.Sprint1.Task6.V4.Test
         public void ValidString()
         {
             DataService ds = new DataService();
-            string strTest = "Солдатик оловянный";
+            string strTest = "желанный юный медленный";
             string res = ds.CheckDoubleN(strTest);
-            string wait = "Солдатик оловяный";
+            string wait = "желаный юнный медленый";
             Assert.AreEqual(wait, res);
         }
     }
