@@ -21,12 +21,12 @@ namespace Tyuiu.SanzyapovOD.Sprint1.Task6.V4
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИССХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите сроку: ");
-            string str = Console.ReadLine();
+            Console.WriteLine("Введите текст: ");
+            string inputtext = Console.ReadLine();
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("Слова с удвоенной н: ");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.CheckDoubleN(str));
+            Console.WriteLine(ds.CheckDoubleN(inputtext));
             Console.ReadKey();
         }
     }
