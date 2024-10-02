@@ -5,7 +5,7 @@ namespace Tyuiu.SanzyapovOD.Sprint1.Task6.V4.Lib
     {
         public string CheckDoubleN(string value)
         {
-            value = value.Replace("нн", "н");
+            value = value.Replace("н", "нн");
             return value;
         }
     }

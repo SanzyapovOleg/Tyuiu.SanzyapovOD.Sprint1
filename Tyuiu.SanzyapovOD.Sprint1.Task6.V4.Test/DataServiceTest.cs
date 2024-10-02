@@ -8,10 +8,10 @@ namespace Tyuiu.SanzyapovOD.Sprint1.Task6.V4.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            string strTest = "Балкон у них стеклянный";
-            string res = ds.CheckDoubleN(strTest);
-            string wait = "Балкон у них стекляный";
-            Assert.AreEqual(wait, res);
+            string word = "оловяный";
+            string result = ds.CheckDoubleN(word);
+            string wait = "оловянный";
+            Assert.AreEqual(result, wait);
         }
     }
 }
